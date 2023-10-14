@@ -1,0 +1,48 @@
+
+*{
+    background-color: rgb(30, 26, 26);
+    margin-top: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    width: 95%;
+}
+
+td, th{
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+th{
+    border-bottom: 1px solid white;
+}
+
+thead, tbody, tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+  
+tbody {
+    display: block;
+    overflow: auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.sno{
+    width: 35px;
+}
